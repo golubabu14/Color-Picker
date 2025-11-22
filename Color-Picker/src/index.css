@@ -58,6 +58,7 @@ body{
     margin-top: 11%;
     border: 1px solid black;
     border-radius: 10px;
+    position: absolute;
     bottom: 0;
 }
 .color{
