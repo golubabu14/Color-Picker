@@ -7,7 +7,7 @@ const [color, setColor] = useState("#FFFFFF");
     setColor(event.target.value);
  }
  return(
-    <> 
+    <> <div className='main'>
      <div className="Color-Picker">
         <h2>Color Picker</h2>
         <div className="Color-Div" value={color} style={{backgroundColor : color}}>
@@ -21,6 +21,7 @@ const [color, setColor] = useState("#FFFFFF");
          <p>© Sumit Production pvt.Ltd</p>
         </div>
      </footer>
+     </div>
      </>
  );
 }

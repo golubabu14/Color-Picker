@@ -58,8 +58,13 @@ body{
     margin-top: 11%;
     border: 1px solid black;
     border-radius: 10px;
+    bottom: 0;
 }
 .color{
     border: 1px solid;
     border-radius: 5px;
+}
+
+.main{
+    position: relative;
 }
